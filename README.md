@@ -33,7 +33,7 @@ NOTE: Before, change MySQL user password and Zabbix/Grafana URL and ACME Email b
 
 ```shell
 cd /opt
-git clone https://github.com/alfredotavio/zabbix-grafana-docker.git
+git clone https://github.com/wesllanSilva/docker-zabbix-grafana.git
 cd /opt/zabbix-grafana-docker
 mkdir letsencrypt/
 touch letsencrypt/acme.json
@@ -54,17 +54,3 @@ docker compose up -d
 ├── .env
 └── docker-compose.yml
 ```
-
-## 👨‍💻 Author
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <a href="https://www.linkedin.com/in/alfredotavio/"><img src="https://avatars.githubusercontent.com/u/22720865?v=4" width="100px;" alt="Foto do Alfredo Castro"/><br>
-        <sub>
-          <b>Alfredo Castro</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
